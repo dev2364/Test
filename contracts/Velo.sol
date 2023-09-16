@@ -36,4 +36,5 @@ contract Velo is IVelo, ERC20Permit {
         _mint(account, amount);
         return true;
     }
+
 }
